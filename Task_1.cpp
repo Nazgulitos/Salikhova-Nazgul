@@ -8,7 +8,7 @@ using namespace std;
 #else
 #define GNUPLOT_NAME "gnuplot -persist"
 #endif
-int main() {
+int Task_1() {
     #ifdef WIN32
         FILE* pipe = _popen(GNUPLOT_NAME, "w");
     #else
